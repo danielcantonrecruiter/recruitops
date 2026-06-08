@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RecruitOps — Daniel Canton, Specialist Talent Partner</title>
+  <meta name="description" content="RecruitOps is Daniel Canton's specialist recruitment practice. Hardware engineering, fintech, and AI/ML niche expertise. Not a body-shop — your trusted advisor." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' stroke='%230F1B2D' stroke-width='2.5' fill='none'/%3E%3Cpolygon points='32,32 50,18 42,42' fill='%230F1B2D'/%3E%3Crect x='21' y='18' width='3.5' height='28' rx='1.75' fill='%230F1B2D'/%3E%3Cpath d='M24.5 22 C24.5 22, 38 18, 38 28 C38 38, 27 34, 24.5 32' stroke='%230F1B2D' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Cline x1='31' y1='35' x2='40' y2='46' stroke='%230F1B2D' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='2' fill='%23C9A84C'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <svg viewBox="0 0 64 64" fill="none" width="36" height="36">
+          <circle cx="32" cy="32" r="28" stroke="#0F1B2D" stroke-width="2.5" fill="none"/>
+          <polygon points="32,32 50,18 42,42" fill="#0F1B2D"/>
+          <rect x="21" y="18" width="3.5" height="28" rx="1.75" fill="#0F1B2D"/>
+          <path d="M24.5 22 C24.5 22, 38 18, 38 28 C38 38, 27 34, 24.5 32" stroke="#0F1B2D" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <line x1="31" y1="35" x2="40" y2="46" stroke="#0F1B2D" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="32" cy="32" r="2" fill="#C9A84C"/>
+        </svg>
+        <span>RecruitOps</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#process">Process</a>
+        <a href="#results">Results</a>
+        <a href="#fees">Fees</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="tagline">Specialist Partner, Not Body-Shop</div>
+        <h1>Hardware, Fintech & AI Talent —<br/>Sourced by Someone Who Gets It.</h1>
+        <p>
+          I'm Daniel Canton. I've spent 6+ years hiring at companies like PayPal and E-Space —
+          scaling teams from 200 to 340, filling 60+ roles across hardware engineering, fintech,
+          and AI/ML in under 40 days average. Now I do it for you.
+        </p>
+        <div class="hero-badges">
+          <span class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            &lt;40 days avg. time-to-fill
+          </span>
+          <span class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            160+ total hires
+          </span>
+          <span class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Hardware + Fintech + AI
+          </span>
+        </div>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book a Discovery Call</a>
+          <a href="#expertise" class="btn btn-outline">See My Expertise</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-visual-inner">
+          <svg viewBox="0 0 200 200" fill="none" class="hero-compass">
+            <circle cx="100" cy="100" r="90" stroke="#0F1B2D" stroke-width="2" fill="none" opacity="0.08"/>
+            <circle cx="100" cy="100" r="60" stroke="#0F1B2D" stroke-width="1" fill="none" opacity="0.06"/>
+            <polygon points="100,100 130,70 115,130" fill="#0F1B2D" opacity="0.9"/>
+            <rect x="80" y="65" width="7" height="70" rx="3.5" fill="#0F1B2D" opacity="0.9"/>
+            <path d="M87 72 C87 72, 112 65, 112 85 C112 108, 93 100, 87 96" stroke="#0F1B2D" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.9"/>
+            <line x1="98" y1="105" x2="120" y2="138" stroke="#0F1B2D" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+            <circle cx="100" cy="100" r="5" fill="#C9A84C"/>
+          </svg>
+          <div class="floating-stat stat-1">
+            <span class="num">&lt;40</span>
+            <span class="label">Days to Fill</span>
+          </div>
+          <div class="floating-stat stat-2 stat-gold">
+            <span class="num">160+</span>
+            <span class="label">Total Hires</span>
+          </div>
+          <div class="floating-stat stat-3">
+            <span class="num">6+</span>
+            <span class="label">Years Exp</span>
+          </div>
+          <div class="floating-stat stat-4">
+            <span class="num">3</span>
+            <span class="label">Niche Verticals</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / STORY ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="tagline">My Story</div>
+        <h2>From In-House to Independent</h2>
+        <p>Why a talent partner with a Paypal and E-Space pedigree chose to go solo — and why that's better for you.</p>
+      </div>
+      <div class="about-grid fade-in">
+        <div class="about-text">
+          <p>
+            After six years building world-class teams at <strong>PayPal</strong> (100+ hires across
+            fintech, payments, and engineering) and <strong>E-Space</strong> (scaling from 200 to 340
+            with 60+ hires in hardware, GNC, avionics, RF, and embedded systems), I found myself at a
+            crossroads. The old model — spray-and-pray agency hiring — wasn't serving anyone.
+          </p>
+          <p>
+            So I launched <strong>RecruitOps</strong>. A single-person, high-agency practice that
+            operates like a dedicated talent partner for a handful of clients at a time. No junior
+            associates. No generic LinkedIn blasts. Just me, my network, and a deep understanding of
+            the niches I serve.
+          </p>
+          <p>
+            I specialize in <strong>hardware-heavy engineering</strong> (aerospace, satellite, defense,
+            semiconductor), <strong>fintech &amp; payments</strong>, and <strong>AI/ML</strong> —
+            because those are the spaces I know, the people I know, and the roles I've filled over
+            160 times.
+          </p>
+          <div class="about-signature">— Daniel Canton</div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-block">
+            <span class="num">6+ <span>years</span></span>
+            <span class="label">In-House Hiring Experience</span>
+          </div>
+          <div class="stat-block">
+            <span class="num">160+</span>
+            <span class="label">Hires Across 3 Verticals</span>
+          </div>
+          <div class="stat-block">
+            <span class="num">&lt;40 <span>days</span></span>
+            <span class="label">Average Time-to-Fill</span>
+          </div>
+          <div class="stat-block">
+            <span class="num">PayPal</span>
+            <span class="label">100+ Eng, Fintech, Product Hires</span>
+          </div>
+          <div class="stat-block">
+            <span class="num">E-Space</span>
+            <span class="label">200 → 340 People (60+ Hires)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NICHE EXPERTISE ===== -->
+  <section id="expertise">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="tagline">Three Verticals, One Specialist</div>
+        <h2>Deep Expertise Where It Matters</h2>
+        <p>I don't recruit across every industry. I go deep into three where I've already placed 160+ people.</p>
+      </div>
+      <div class="expertise-grid">
+        <div class="expertise-card fade-in">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+              <path d="M14 34 L24 14 L34 34" stroke="#0F1B2D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="18" y1="28" x2="30" y2="28" stroke="#0F1B2D" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Hardware Engineering</h3>
+          <p class="expertise-sub">Aerospace · Satellite · Defense · Semiconductor</p>
+          <div class="expertise-roles">
+            <span class="role-tag">GNC</span>
+            <span class="role-tag">Avionics</span>
+            <span class="role-tag">Radar</span>
+            <span class="role-tag">RF</span>
+            <span class="role-tag">Embedded</span>
+            <span class="role-tag">Supply Chain</span>
+            <span class="role-tag">Hardware Eng</span>
+          </div>
+          <p class="expertise-note">60+ hires at E-Space alone. I know the landscape, the comp bands, and who's doing the work.</p>
+        </div>
+
+        <div class="expertise-card fade-in">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+              <rect x="10" y="16" width="10" height="20" rx="2" fill="#0F1B2D" opacity="0.9"/>
+              <rect x="28" y="12" width="10" height="24" rx="2" fill="#0F1B2D" opacity="0.9"/>
+              <line x1="20" y1="26" x2="28" y2="26" stroke="#C9A84C" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Fintech &amp; Payments</h3>
+          <p class="expertise-sub">Payments Infrastructure · Banking · RegTech</p>
+          <div class="expertise-roles">
+            <span class="role-tag">Backend Eng</span>
+            <span class="role-tag">Payments</span>
+            <span class="role-tag">Product</span>
+            <span class="role-tag">Risk</span>
+            <span class="role-tag">Compliance</span>
+          </div>
+          <p class="expertise-note">100+ hires at PayPal. I understand the regulatory complexity and the talent pool that navigates it.</p>
+        </div>
+
+        <div class="expertise-card fade-in">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+              <circle cx="24" cy="24" r="8" fill="#0F1B2D" opacity="0.9"/>
+              <circle cx="24" cy="24" r="3" fill="#C9A84C"/>
+              <line x1="24" y1="6" x2="24" y2="14" stroke="#0F1B2D" stroke-width="2" stroke-linecap="round"/>
+              <line x1="24" y1="34" x2="24" y2="42" stroke="#0F1B2D" stroke-width="2" stroke-linecap="round"/>
+              <line x1="6" y1="24" x2="14" y2="24" stroke="#0F1B2D" stroke-width="2" stroke-linecap="round"/>
+              <line x1="34" y1="24" x2="42" y2="24" stroke="#0F1B2D" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>AI / Machine Learning</h3>
+          <p class="expertise-sub">Computer Vision · ML Ops · NLP · AI Infrastructure</p>
+          <div class="expertise-roles">
+            <span class="role-tag">CV/ML</span>
+            <span class="role-tag">Data Eng</span>
+            <span class="role-tag">AI Platform</span>
+            <span class="role-tag">ML Ops</span>
+          </div>
+          <p class="expertise-note">Across fintech and hardware, I've placed AI/ML talent in roles where the bar is set by deep tech companies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section id="process">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="tagline">How I Work</div>
+        <h2>Calibrate. Map. Vet. Close.</h2>
+        <p>A repeatable process that delivers &lt;40 day time-to-fill without sacrificing quality.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-step fade-in">
+          <div class="step-num">01</div>
+          <h4>Calibration</h4>
+          <p>We go deep on your culture, tech stack, and what "great" really looks like. I don't start a search until I can describe the ideal candidate like I've worked with them.</p>
+        </div>
+        <div class="process-step fade-in">
+          <div class="step-num">02</div>
+          <h4>Market Map</h4>
+          <p>I map the top 100+ candidates in your niche — active and passive. I know where the hardware engineers are, which fintech companies are shedding talent, and who's doing cutting-edge ML work.</p>
+        </div>
+        <div class="process-step fade-in">
+          <div class="step-num">03</div>
+          <h4>Vet &amp; Curate</h4>
+          <p>Multi-stage screening that checks technical depth, cultural alignment, and genuine readiness to move. You only see candidates who are a 90%+ match.</p>
+        </div>
+        <div class="process-step fade-in">
+          <div class="step-num">04</div>
+          <h4>Close &amp; Retain</h4>
+          <p>Offer strategy, counter-offer coaching, resignation support, and onboarding check-ins. A hire isn't a success until they're thriving 12 months in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESULTS ===== -->
+  <section id="results">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="tagline">Track Record</div>
+        <h2>160+ Hires Across Hardware, Fintech &amp; AI</h2>
+        <p>Numbers don't lie. Every metric reflects a single principle: deep expertise beats high volume.</p>
+      </div>
+
+      <div class="results-showcase fade-in">
+        <div class="result-block">
+          <div class="result-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+              <path d="M14 17h20v18H14z" fill="#0F1B2D" opacity="0.1" stroke="#0F1B2D" stroke-width="1.5"/>
+              <path d="M18 22h12v10H18z" fill="#0F1B2D" opacity="0.9"/>
+              <text x="24" y="30" text-anchor="middle" fill="white" font-family="Inter" font-size="8" font-weight="700">PayPal</text>
+            </svg>
+          </div>
+          <h3>PayPal (2019–2023)</h3>
+          <ul>
+            <li><strong>100+ hires</strong> across engineering, payments, product, and risk</li>
+            <li>Closed critical fintech roles in competitive talent markets</li>
+            <li>Built hiring processes that reduced time-to-fill by 30%</li>
+          </ul>
+        </div>
+
+        <div class="result-block">
+          <div class="result-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+              <path d="M14 17h20v18H14z" fill="#0F1B2D" opacity="0.1" stroke="#0F1B2D" stroke-width="1.5"/>
+              <path d="M18 22h12v10H18z" fill="#0F1B2D" opacity="0.9"/>
+              <text x="24" y="30" text-anchor="middle" fill="white" font-family="Inter" font-size="7" font-weight="700">E-Space</text>
+            </svg>
+          </div>
+          <h3>E-Space (2023–2025)</h3>
+          <ul>
+            <li><strong>60+ hires</strong> in 12 months — scaled company from 200 to 340</li>
+            <li>Specialized in hard-to-fill hardware roles: GNC, Avionics, Radar, RF, Embedded</li>
+            <li>Maintained &lt;40 day time-to-fill even for niche technical roles</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="stats-bar fade-in">
+        <div class="stat-item">
+          <span class="num">160+</span>
+          <span class="label">Total Career Hires</span>
+        </div>
+        <div class="stat-item">
+          <span class="num">&lt;40 <span>days</span></span>
+          <span class="label">Avg. Time-to-Fill</span>
+        </div>
+        <div class="stat-item">
+          <span class="num">3</span>
+          <span class="label">Niche Verticals</span>
+        </div>
+        <div class="stat-item">
+          <span class="num">6+ <span>yrs</span></span>
+          <span class="label">In-House Hiring Exp</span>
+        </div>
+      </div>
+
+      <!-- Testimonial placeholder -->
+      <div class="testimonial-card fade-in">
+        <blockquote>
+          [Client testimonial coming soon. Ask Daniel for references from his time at PayPal and E-Space.]
+        </blockquote>
+        <div class="testimonial-author">
+          <div class="avatar">DC</div>
+          <div>
+            <div class="name">Your Name Here</div>
+            <div class="title">CTO, [Company]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEES ===== -->
+  <section id="fees">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="tagline">Engagement Models</div>
+        <h2>Flexible. Transparent. Built for Results.</h2>
+        <p>Two straightforward models. No hidden fees, no long-term lock-in if we don't deliver.</p>
+      </div>
+
+      <div class="fees-grid">
+        <div class="fee-card featured fade-in">
+          <span class="fee-label">Recommended</span>
+          <h3>Partner Retainer</h3>
+          <p class="fee-desc">Dedicated search capacity. I embed into your team and own the full hiring lifecycle for 2–3 roles at a time.</p>
+          <div class="fee-amount">$8K/mo <span>+ reduced success fee</span></div>
+          <ul class="fee-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Dedicated sourcing &amp; market mapping
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Max 3 active searches at a time
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Weekly progress reports &amp; pipeline reviews
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Priority response — same-day turnaround
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-gold" style="width:100%;justify-content:center;">Book a Discovery Call</a>
+        </div>
+
+        <div class="fee-card fade-in">
+          <span class="fee-label">Per Placement</span>
+          <h3>Contingency</h3>
+          <p class="fee-desc">Need a single hire fast? I tap into my network and pipeline — and only charge when they start.</p>
+          <div class="fee-amount">20–25% <span>of first-year salary</span></div>
+          <ul class="fee-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0F1B2D" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Curated shortlist within 10 days
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0F1B2D" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Pre-vetted technical &amp; cultural fit
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0F1B2D" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Offer &amp; closing support included
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0F1B2D" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Only pay on successful start
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" style="width:100%;justify-content:center;">Send a Brief</a>
+        </div>
+      </div>
+
+      <div class="intel-offer fade-in">
+        <div class="intel-icon">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+            <rect x="14" y="18" width="20" height="16" rx="2" fill="#0F1B2D" opacity="0.9"/>
+            <path d="M18 22 L24 28 L30 22" stroke="#C9A84C" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <text x="24" y="42" text-anchor="middle" fill="#A0AEC0" font-family="Inter" font-size="6">INTEL</text>
+          </svg>
+        </div>
+        <div>
+          <h3>Also Available: Talent Market Snapshot</h3>
+          <p>Not ready to hire? Get a monthly pulse on your niche — comp data, talent movement, and hiring trends. <strong>$750/mo</strong> or included with retainer.</p>
+          <a href="#contact" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="tagline">Let's Talk</div>
+        <h2>Ready to Hire Differently?</h2>
+        <p>No pitch decks, no pressure. Just a 30-minute conversation about your hiring goals and whether a specialist approach makes sense.</p>
+      </div>
+      <div class="contact-grid fade-in">
+        <div class="contact-info">
+          <div class="contact-card">
+            <h3>Daniel Canton</h3>
+            <p class="contact-title">Founder &amp; Talent Partner, RecruitOps</p>
+            <div class="contact-detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>daniel.canton620@yahoo.com</span>
+            </div>
+            <div class="contact-detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              <span>linkedin.com/in/daniel-canton1</span>
+            </div>
+            <div class="contact-detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Saratoga, CA</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="you@company.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm hiring for</label>
+            <select id="interest">
+              <option value="hardware">Hardware Engineering</option>
+              <option value="fintech">Fintech / Payments</option>
+              <option value="aiml">AI / Machine Learning</option>
+              <option value="multiple">Multiple roles</option>
+              <option value="intel">Talent Market Snapshot</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your hiring needs..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+          <div class="form-feedback" id="formFeedback"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <svg viewBox="0 0 64 64" fill="none" width="28" height="28">
+          <circle cx="32" cy="32" r="28" stroke="#C9A84C" stroke-width="2" fill="none" opacity="0.5"/>
+          <polygon points="32,32 50,18 42,42" fill="#C9A84C"/>
+          <rect x="21" y="18" width="3.5" height="28" rx="1.75" fill="#C9A84C"/>
+          <path d="M24.5 22 C24.5 22, 38 18, 38 28 C38 38, 27 34, 24.5 32" stroke="#C9A84C" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <line x1="31" y1="35" x2="40" y2="46" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="32" cy="32" r="2" fill="#FFFFFF"/>
+        </svg>
+        <span>RecruitOps</span>
+      </div>
+      <p>&copy; 2025 RecruitOps. Specialist Partner, Not Body-Shop.</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#fees">Fees</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
