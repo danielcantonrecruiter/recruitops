@@ -2,7 +2,7 @@
 
 **Founder:** Daniel Canton  
 **Niches:** Hardware Engineering (aerospace, satellite, defense, semiconductor) · Fintech/Payments · AI/ML  
-**Track Record:** 160+ hires (60+ at Stealth Space Startup, 100+ at PayPal) · <40 day avg time-to-fill
+**Track Record:** 210+ hires (60+ at Stealth Space Startup, 100+ at PayPal) · <40 day avg time-to-fill
 
 ---
 
